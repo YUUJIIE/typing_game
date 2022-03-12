@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="button">
+        <button id="start">START</button>
+        <button id="stop">RESET</button>
+    </section>
+    <section class="main">
+        <p id ="kanaText"></p>
+        <p id="text">
+            START ボタンをクリックすると開始します
+            　　　　計測時間は1分間です
+        </p>
+        <p id="info">
+            入力文字数：<span id="wordCount">0</span>
+            タイプミス：<span id="typeMiss">0</span>
+            残り時間：<span id="timeLeft">60</span>秒
+            正解率：<span id="correctAnswerRate">0</span>%
+        </p>
+        
+    </section>
+    
+    <section class="keyboard">
+        <div class="key">1</div>
+        <div class="key">2</div>
+        <div class="key">3</div>
+        <div class="key">4</div>
+        <div class="key">5</div>
+        <div class="key">6</div>
+        <div class="key">7</div>
+        <div class="key">8</div>
+        <div class="key">9</div>
+        <div class="key">0</div>
+        <div class="key" id="-">-</div>
+        <div class="key">^</div>
+        <div class="key">\</div>
+        <br>
+        <div class="key" id="q">q</div>
+        <div class="key" id="w">w</div>
+        <div class="key" id="e">e</div>
+        <div class="key" id="r">r</div>
+        <div class="key" id="t">t</div>
+        <div class="key" id="y">y</div>
+        <div class="key" id="u">u</div>
+        <div class="key" id="i">i</div>
+        <div class="key" id="o">o</div>
+        <div class="key" id="p">p</div>
+        <div class="key">@</div>
+        <div class="key">[</div>
+        <br>
+        <div class="key" id="a">a</div>
+        <div class="key" id="s">s</div>
+        <div class="key" id="d">d</div>
+        <div class="key" id="f">f</div>
+        <div class="key" id="g">g</div>
+        <div class="key" id="h">h</div>
+        <div class="key" id="j">j</div>
+        <div class="key" id="k">k</div>
+        <div class="key" id="l">l</div>
+        <div class="key">;</div>
+        <div class="key">:</div>
+        <div class="key">]</div>
+        <br>
+        <div class="key" id="z">z</div>
+        <div class="key" id="x">x</div>
+        <div class="key" id="c">c</div>
+        <div class="key" id="v">v</div>
+        <div class="key" id="b">b</div>
+        <div class="key" id="n">n</div>
+        <div class="key" id="m">m</div>
+        <div class="key" id=",">,</div>
+        <div class="key" id=".">.</div>
+        <div class="key">/</div>
+        <div class="key">\</div>
+        
+        
+        
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
